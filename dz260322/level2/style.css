@@ -1,0 +1,13 @@
+body {
+  background-color: aqua;
+}
+
+li {
+  width: 200px;
+  height: 150px;
+  align-items: center;
+}
+
+li:focus {
+  background-color:#ff0000;
+}
