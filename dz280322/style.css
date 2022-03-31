@@ -1,0 +1,31 @@
+
+body {
+  background-color: aqua;
+}
+
+.block1 {
+  background: url(./img/coffee.jpg) no-repeat;
+  height: 200px;
+  margin: 20px;
+}
+
+.block1 a {
+  display: block;
+  height: 100%;
+}
+
+.block2 {
+  margin: 20px;
+}
+
+.block2 a {
+  display: flex;
+  position: relative;
+}
+
+.block2 a p {
+  position: absolute;
+  z-index: 100;
+}
+
+
