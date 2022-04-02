@@ -1,0 +1,36 @@
+
+body {
+  background: url(img/kiev.jpg) no-repeat fixed center;
+  background-size: 100% 100%;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.wraper {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: #a9e2e2;
+  padding: 50px;
+  border-radius: 30px;
+  border: 1px solid red;
+  box-shadow:2px 2px 20px #ca27af;
+}
+
+h1 {
+  color: #1900ff;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  color:#f8aa01;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.imgone, .imgtwo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 10px 5px 5px rgba(60, 219, 12, 0.5);
+}
