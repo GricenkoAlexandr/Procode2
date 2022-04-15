@@ -1,0 +1,187 @@
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+section {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.headersection {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+menu a{
+  text-decoration: none;
+  margin-right: 35px;
+  color: #222B3A;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+menu a img {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+/* header end */
+
+/* banner */
+.banner {
+  background-color: #296DCE;
+}
+main {
+  background-color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 513px;
+}
+
+.leftside h1 {
+  color: white;
+  font-size: 38px;
+  width: 622px;
+}
+
+.leftside h2 {
+  color: #FC880D;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.leftside button {
+  width: 209px;
+  height: 44px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 900;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+
+.rightside img {
+  margin-top: 35px;
+  margin-right: 75px;
+}
+
+/* banner end */
+
+
+.bread {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.choiceblock {
+  background-color:#FAFAFA;
+  margin-bottom: 26px;
+}
+
+.choce {
+  height: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.choce span {
+  color: #222B3A;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.selectfilter {
+  display: flex;
+  color: #F78000;
+  border: 1px solid #F78000;
+  border-radius: 3px;
+  width: 242px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+/* main block */
+
+.moduleblock {
+  height: 203px;
+  border: 1px solid #F3F3F3;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #F3F3F3;
+  padding: 25px;
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.number {
+  width: 148px;
+  color: #E1E1E1;
+  font-size: 64px;
+  font-weight: 900;
+
+}
+
+.moduleinfo h3 {
+  color: #1092CB;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.moduleinfo span {
+  color: #979FAD;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.moduleinfo p {
+  color:#696969;
+  font-size: 16px;
+}
+
+.access span {
+  color: #696969;
+}
+
+.access span time {
+  color: #F78000;
+}
+
+
+.progresbar {
+  width: 90px;
+  border: 1px solid red;
+
+}
+
+/* main block end */
+
+footer {
+  height: 350px;
+  background-color: #0099DD;
+  margin-top: 76px;
+}
+
+.downside {
+  height: 47px;
+  background-color: #222B3A;
+}
