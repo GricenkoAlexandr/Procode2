@@ -2,6 +2,43 @@ body {
   background-color: #d1ecbb;
 }
 
-img {
-  width: 200px;
+.ddd {
+  border: 2px double #1100ff;
+}
+
+.ddd > div {
+  border: 1px solid #ff0000;
+  height: 30px;
+}
+
+.ddd > div:nth-child(2n) {
+  background-color:#3bfc00;
+}
+
+.test {
+  height: 40px;
+  background-color: #3bfc00;
+}
+.test:empty {
+  background-color:#ff0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.outer {
+  color: #ff0000;
+}
+
+.inner {
+  color: #3bfc00;
+}
+
+.outer:hover .inner {
+  color: aqua;
 }
