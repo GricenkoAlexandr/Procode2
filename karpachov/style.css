@@ -20,17 +20,27 @@ section {
 }
 
 menu a{
+  padding: 15px;
   text-decoration: none;
   margin-right: 35px;
   color: #222B3A;
   font-size: 16px;
   font-weight: 900;
+  transition: all 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  border-radius: 15px;
+}
+
+menu a:hover {
+  color: #09ff00;
+  box-shadow: 2px 2px 5px #d600dd;
+  border-radius: 15px;
 }
 
 menu a img {
   font-size: 14px;
   margin-right: 10px;
 }
+
 
 /* header end */
 
@@ -71,6 +81,11 @@ main {
   border: 1px solid #ffffff;
   border-radius: 3px;
   margin-bottom: 72px;
+  transition: all 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+.leftside button:hover {
+  background-color:#09ff00;
 }
 
 

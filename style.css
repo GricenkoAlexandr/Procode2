@@ -2,43 +2,17 @@ body {
   background-color: #d1ecbb;
 }
 
-.ddd {
-  border: 2px double #1100ff;
+
+.anima {
+  background-color:aqua;
+  min-height: 250px;
+  width: 500px;
+  font-size: 25px;
+  transition-duration: 1s;
 }
 
-.ddd > div {
-  border: 1px solid #ff0000;
-  height: 30px;
-}
-
-.ddd > div:nth-child(2n) {
-  background-color:#3bfc00;
-}
-
-.test {
-  height: 40px;
-  background-color: #3bfc00;
-}
-.test:empty {
-  background-color:#ff0000;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ff0000;
-}
-
-.outer {
-  color: #ff0000;
-}
-
-.inner {
-  color: #3bfc00;
-}
-
-.outer:hover .inner {
-  color: aqua;
+.anima:hover {
+  background-color:#15ff00;
+  font-size: 32px;
+  min-height: 300px;
 }
